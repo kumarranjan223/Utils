@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DataSheetTest</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a7004b8a-33a4-424f-811d-400add3949de</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f96caa99-f85f-4f7c-a763-39b4afdd7c96</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('LoginDataSheet')</defaultValue>
+      <description></description>
+      <id>f96caa99-f85f-4f7c-a763-39b4afdd7c96</id>
+      <masked>false</masked>
+      <name>DS_testdata</name>
+   </variable>
+</TestCaseEntity>
