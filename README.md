@@ -10,9 +10,9 @@ This Katalon Studio project provides a reusable framework with built-in utilitie
 
 ## 🔧 How to Use
 
-### 1. ✅ Add Plugin JAR
+### 1. ✅ Download and Add Plugin JAR in your Project
 
-Ensure `ExcelUtilsPlugin-all.jar` is placed inside:
+Ensure `ExcelUtilsPlugin-all.jar` is placed inside your project:
 
 <ProjectRoot>/
 ├── Plugins/
