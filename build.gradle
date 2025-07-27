@@ -1,29 +1,27 @@
 plugins {
-  id 'java'
-  id 'groovy'
-  id 'com.github.johnrengelman.shadow' version '7.1.2'
-  id "com.katalon.gradle-plugin" version "0.1.2"
+    id 'java'
+    id 'groovy'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+    id 'com.katalon.gradle-plugin' version '0.1.2'
 }
 
 repositories {
-  jcenter()
-  mavenCentral()
+    mavenCentral()
 }
 
 sourceSets {
-  main {
-    groovy {
-      srcDirs = ['Keywords', 'Include/scripts/groovy']
-      srcDir 'Libs'
+    main {
+        groovy {
+            srcDirs = ['Keywords', 'Include/scripts/groovy', 'Libs']
+        }
     }
-  }
 }
 
 shadowJar {
-  exclude 'Temp*.class'
+    exclude 'Temp*.class'
 }
 
 katalon {
-  dependencyPrefix = "com.katalon"
-  minimize = false
+    dependencyPrefix = "com.katalon"
+    minimize = false
 }

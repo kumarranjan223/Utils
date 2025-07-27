@@ -12,11 +12,24 @@
       <value></value>
       <variableId>f96caa99-f85f-4f7c-a763-39b4afdd7c96</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4ba577d6-ba42-4fe3-98a3-34a26816da4a</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestData('LoginDataSheet')</defaultValue>
       <description></description>
       <id>f96caa99-f85f-4f7c-a763-39b4afdd7c96</id>
       <masked>false</masked>
       <name>DS_testdata</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('LoginDataSheet').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>4ba577d6-ba42-4fe3-98a3-34a26816da4a</id>
+      <masked>false</masked>
+      <name>Username</name>
    </variable>
 </TestCaseEntity>
